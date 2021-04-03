@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Victor de Souza Magaldi",
+      "email": "vict@teste.com"
+    },
+    {
+      "id": 2,
+      "name": "João Silveira",
+      "email": "João@teste.com"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Para todos os arquivos dentro do node modules (front e back)
+backend/node_modules
+frontend/node_modules
+
