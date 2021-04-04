@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 import Footer from "../components/templates/Footer";
 import Logo from "../components/templates/Logo";
