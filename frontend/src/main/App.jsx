@@ -1,19 +1,19 @@
 import React from "react";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap-grid.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 
 import Footer from "../components/templates/Footer";
 import Logo from "../components/templates/Logo";
-import Main from "../components/templates/Main";
 import Nav from "../components/templates/Nav";
+import Home from "../components/Home/Home";
 
 const app = () => {
   return (
     <div className="app">
       <Logo></Logo>
       <Nav></Nav>
-      <Main icon="home" title="inicio" subtitle="Desenvolvimento Crud React " />
+      <Home></Home>
       <Footer></Footer>
     </div>
   );
