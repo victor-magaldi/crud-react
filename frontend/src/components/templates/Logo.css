@@ -1,5 +1,6 @@
 aside.logo {
   background-color: var(--bg-dark);
+  transition: 00.3s ease-in-out;
 
   display: flex;
   align-items: center;
@@ -9,4 +10,9 @@ a h3 {
   color: #ff6b6b;
   padding: 0 15px;
   width: 100%;
+}
+@media (max-width: 576px) {
+  aside.logo img {
+    width: 350px;
+  }
 }
